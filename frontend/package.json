@@ -30,7 +30,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "react/jsx-no-comment-textnodes": "off"
+    }
   },
   "browserslist": {
     "production": [
